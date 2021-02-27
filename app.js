@@ -34,6 +34,4 @@ app.get('/apps', (req, res) => {
     .json(results)
 })
 
-app.listen(9000, () => {
-  console.log('Server started on PORT 9000')
-})
+module.exports = app
